@@ -1,0 +1,40 @@
+=================================
+Setting up Scala
+=================================
+1. Download Scala
+wget http://downloads.lightbend.com/scala/2.12.1/scala-2.12.1.tgz
+
+2. Unzip Scala
+tar -xvzf scala-2.12.1.tgz
+
+
+=================================
+Running LinearInterpolation
+=================================
+0. Unzip A1.tgz
+tar -xvzf A1.tgz
+
+1. Launch the script
+scala -J-Xmx2g  LinearInterpolation.scala
+
+2. Enter the input parameters (see HyperParameters.xlsx for Hyper-parameters)
+brown,brown,0.1,0.5,0.4
+
+3. Output shows up as follows
+brown,brown,0.1,0.5,0.4,263.19866712723984
+
+
+=================================
+Running Back-off
+=================================
+0. Unzip A1.tgz
+tar -xvzf A1.tgz
+
+1. Launch the script
+scala -J-Xmx2g  Backoff.scala
+
+2. Enter the input parameters (see HyperParameters.xlsx for Hyper-parameters)
+brown,brown,0.8
+
+3. Output shows up as follows
+brown,brown,0.8,246.85226656254218
